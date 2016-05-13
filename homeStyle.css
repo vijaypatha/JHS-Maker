@@ -36,13 +36,20 @@ main{
     background-image: url(imgs/3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 920px 300px;
 }
 .slide2 {
     background-image: url(imgs/2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 920px 300px;
 }
-.slide3 {background: green;}
+.slide3 {
+    background-image: url(imgs/4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 920px 300px;
+}
 .slide4 {background: purple;}
 .slide5 {background: pink;}
 
@@ -52,8 +59,12 @@ main{
 .navbar-default .navbar-brand {
     font-size: 2em;
     color: rgba(165, 53, 38, 0.9);
-}
 
+}
+.navbar-default{
+    background-color: white;
+
+}
 .footer{
     display: flex;
     justify-content:space-around;
