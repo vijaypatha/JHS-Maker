@@ -1,0 +1,67 @@
+main{
+    margin: 25px;
+}
+
+.topsection2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#slider {
+    width: 920px;
+    height: 300px;
+    overflow: hidden;
+    border: solid 1px black;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 920px;
+    height: 300px;
+}
+
+/* helper css, since we don't have images */
+.slide1 {
+    background-image: url(imgs/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide2 {
+    background-image: url(imgs/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+
+.glyphicon {
+    font-size: 2em;
+}
+.navbar-default .navbar-brand {
+    font-size: 2em;
+    color: rgba(165, 53, 38, 0.9);
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    border-top: solid 1px dimgray;
+}
+.footer img{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
